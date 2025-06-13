@@ -1,0 +1,20 @@
+{
+    "documentId": "f04a7f2dddfb1a361e7056c8",
+    "outputFormat": "urdf",
+    "onshape_api": "https://cad.onshape.com",
+    "onshape_access_key": "HJMl1DIzVrRDYKKj6CuejmCF",
+    "assemblyName": "final_assembly_right",
+    "onshape_secret_key": "YQygtiVskYSvB4QpgA8wbE7DNIlDBhRIMVJEhc0HIaShAkiI",
+    "noDynamics": false,
+    "jointMaxVelocity":{
+        "default": 8,
+        "palm_thumb": 8.063421,
+        "palm_4_finger": 4.8
+    },
+    "jointMaxEffort": {
+        "default": 0.5, 
+        "palm_thumb": 1.0,
+        "palm_4_finger": 1.4
+    }
+    //this works better than the simplify stl command above https://myminifactory.github.io/Fast-Quadric-Mesh-Simplification/
+}

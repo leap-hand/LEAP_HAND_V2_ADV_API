@@ -1,0 +1,1019 @@
+<robot name="onshape">
+<link name="no_finger_frame_mirror">
+<visual>
+<origin xyz="-0.097610946355382324779 0.046567994580251084735 -0.11769443073048962978" rpy="1.2531936124308208996e-14 2.6154741797905565566e-15 3.1415926535897802374" />
+<geometry>
+<mesh filename="package:///no_finger_frame_mirror.stl"/>
+</geometry>
+<material name="no_finger_frame_mirror_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.097610946355382324779 0.046567994580251084735 -0.11769443073048962978" rpy="1.2531936124308208996e-14 2.6154741797905565566e-15 3.1415926535897802374" />
+<geometry>
+<mesh filename="package:///no_finger_frame_mirror.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0086695502931633250387 0.037054607190030681985 -0.12108654761615998685" rpy="0 0 0"/>
+<mass value="0.14000000000000001332" />
+<inertia ixx="8.8361250390020840725e-05" ixy="2.5987728287979904496e-05"  ixz="-6.739176347191910199e-06" iyy="8.2462916055488271133e-05" iyz="1.0772075774025882954e-05" izz="0.00010954139719713047892" />
+</inertial>
+</link>
+
+<link name="4_finger_frame_mirror">
+<visual>
+<origin xyz="0.06438735192049899192 0.021982854122488196258 -0.10301856052622175575" rpy="-1.570796326794896558 -1.5707963267948821251 0" />
+<geometry>
+<mesh filename="package:///4_finger_frame_mirror.stl"/>
+</geometry>
+<material name="4_finger_frame_mirror_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.06438735192049899192 0.021982854122488196258 -0.10301856052622175575" rpy="-1.570796326794896558 -1.5707963267948821251 0" />
+<geometry>
+<mesh filename="package:///4_finger_frame_mirror.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.069121189173671993 0.026247427698226473425 0.023890925775700358469" rpy="0 0 0"/>
+<mass value="0.71999999999999986233" />
+<inertia ixx="0.0017277520854569036399" ixy="-3.8256030347920270181e-05"  ixz="6.0903623061807394835e-06" iyy="0.0024098628715433353595" iyz="-2.1379884988333568591e-05" izz="0.0013610372869761618551" />
+</inertial>
+</link>
+
+<link name="axle_4_gear_together">
+<visual>
+<origin xyz="-0.014568224548441982211 -0.011604020570707002102 -0.010505677060214119872" rpy="-1.5707963267948970021 -1.7766208524853302528e-15 0" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together.stl"/>
+</geometry>
+<material name="axle_4_gear_together_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014568224548441982211 -0.011604020570707002102 -0.010505677060214119872" rpy="-1.5707963267948970021 -1.7766208524853302528e-15 0" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.026869719017990040255 0.008223040993264794235 0.010874722042558741114" rpy="0 0 0"/>
+<mass value="0.020000000000000003886" />
+<inertia ixx="6.8365795729097600978e-08" ixy="5.2634161190536670097e-09"  ixz="2.8910352975485679012e-11" iyy="2.8910168881223301891e-07" iyz="3.562755299982789639e-09" izz="2.5363749823388465971e-07" />
+</inertial>
+</link>
+
+<link name="finger_v2_with_motor">
+<visual>
+<origin xyz="0.0088210314831197803032 0.024440528095822172672 0.012433718504434199126" rpy="1.5707963267949061059 -7.4530466674805909608e-15 9.0591237144396882304e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+<material name="finger_v2_with_motor_material">
+<color rgba="0.60392156862745094426 0.14901960784313725283 0.14901960784313725283 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0088210314831197803032 0.024440528095822172672 0.012433718504434199126" rpy="1.5707963267949061059 -7.4530466674805909608e-15 9.0591237144396882304e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="2.6979922005173485805e-06 0.0096917949877039707984 0.016724393282225830104" rpy="0 0 0"/>
+<mass value="0.044999999999999991396" />
+<inertia ixx="1.019074646174880633e-05" ixy="-5.8468932945953010122e-10"  ixz="9.9272185277926733312e-10" iyy="6.5698291146986900784e-06" iyz="8.0966731597356121798e-07" izz="6.3975487839694442251e-06" />
+</inertial>
+</link>
+
+<link name="pip_dip_soft_parts">
+<visual>
+<origin xyz="-0.021942347288131353045 -0.0075484225526453938016 0.018921031483119302857" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+<material name="pip_dip_soft_parts_material">
+<color rgba="0 0.81960784313725487671 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021942347288131353045 -0.0075484225526453938016 0.018921031483119302857" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0025584754911380756803 -0.010033066431080154418 0.01009992153295787877" rpy="0 0 0"/>
+<mass value="0.010000000000000000208" />
+<inertia ixx="5.8758094386557238497e-07" ixy="-6.4273631016611555397e-08"  ixz="1.4928178833014714149e-12" iyy="3.8644457941791885502e-07" iyz="-9.0191416838479907724e-13" izz="3.6403373698071450377e-07" />
+</inertial>
+</link>
+
+<link name="dip_tip_soft_upward_cut">
+<visual>
+<origin xyz="-0.016078712415583840123 0.012538385423875982039 0.018121031483119314637" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+<material name="dip_tip_soft_upward_cut_material">
+<color rgba="0 0.74901960784313725839 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.016078712415583840123 0.012538385423875982039 0.018121031483119314637" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0046973159784599004263 -0.011819722243756783375 0.0093026388173126275255" rpy="0 0 0"/>
+<mass value="0.012499999999999998959" />
+<inertia ixx="1.1609996619058457481e-06" ixy="-2.360128858660413098e-07"  ixz="2.0032082089161885575e-10" iyy="4.3923424102121650935e-07" iyz="2.7775618184120909629e-10" izz="9.5684104170187606541e-07" />
+</inertial>
+</link>
+
+<joint name="index_dip" type="revolute">
+<origin xyz="-0.0059888367506149287056 -0.020203261260719036774 0.00080000000000000556777" rpy="-9.2681090894012040932e-16 -2.6420196213961878124e-16 5.6862934499913119981e-14" />
+<parent link="pip_dip_soft_parts" />
+<child link="dip_tip_soft_upward_cut" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="index_pip" type="revolute">
+<origin xyz="-0.010099999999999286632 0.016877547176541225771 0.034357058221310798896" rpy="3.1415926535897864547 -1.5707963267948958919 0" />
+<parent link="finger_v2_with_motor" />
+<child link="pip_dip_soft_parts" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="index_mcps" type="revolute">
+<origin xyz="0.027352829851047193166 -0.019199999999999994849 0.010900000000000055478" rpy="-1.5707963267949252018 -1.5707963267948905628 0" />
+<parent link="axle_4_gear_together" />
+<child link="finger_v2_with_motor" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="index_mcpf" type="revolute">
+<origin xyz="-0.0012570000000006464891 0.026399999999999822914 0.04865000000000038044" rpy="8.550374059872712162e-16 -1.4752892863982532798e-14 1.5707963267949021091" />
+<parent link="4_finger_frame_mirror" />
+<child link="axle_4_gear_together" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="axle_4_gear_together_2">
+<visual>
+<origin xyz="-0.014568224548441983945 -0.01160402057070701598 -0.010505677060214119872" rpy="-1.5707963267948970021 -1.7766208524853302528e-15 0" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together.stl"/>
+</geometry>
+<material name="axle_4_gear_together_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014568224548441983945 -0.01160402057070701598 -0.010505677060214119872" rpy="-1.5707963267948970021 -1.7766208524853302528e-15 0" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.026869719017990033316 0.0082230409932647803573 0.010874722042558741114" rpy="0 0 0"/>
+<mass value="0.020000000000000003886" />
+<inertia ixx="6.8365795729097600978e-08" ixy="5.2634161190536670097e-09"  ixz="2.8910352975485679012e-11" iyy="2.8910168881223301891e-07" iyz="3.562755299982789639e-09" izz="2.5363749823388465971e-07" />
+</inertial>
+</link>
+
+<link name="finger_v2_with_motor_2">
+<visual>
+<origin xyz="0.0088210314831197855073 0.024440528095822179611 0.012433718504434199126" rpy="1.5707963267949061059 -7.4530466674805909608e-15 9.1327495728835133389e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+<material name="finger_v2_with_motor_material">
+<color rgba="0.60392156862745094426 0.14901960784313725283 0.14901960784313725283 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0088210314831197855073 0.024440528095822179611 0.012433718504434199126" rpy="1.5707963267949061059 -7.4530466674805909608e-15 9.1327495728835133389e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="2.6979922005225531745e-06 0.0096917949877039777373 0.016724393282225830104" rpy="0 0 0"/>
+<mass value="0.044999999999999991396" />
+<inertia ixx="1.019074646174880633e-05" ixy="-5.8468932945953010122e-10"  ixz="9.9272185277926733312e-10" iyy="6.5698291146986900784e-06" iyz="8.0966731597356121798e-07" izz="6.3975487839694442251e-06" />
+</inertial>
+</link>
+
+<link name="pip_dip_soft_parts_2">
+<visual>
+<origin xyz="-0.0219423472881313808 -0.0075484225526453868627 0.018921031483119306327" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+<material name="pip_dip_soft_parts_material">
+<color rgba="0 0.81960784313725487671 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0219423472881313808 -0.0075484225526453868627 0.018921031483119306327" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0025584754911381034359 -0.010033066431080147479 0.010099921532957882239" rpy="0 0 0"/>
+<mass value="0.010000000000000000208" />
+<inertia ixx="5.8758094386557238497e-07" ixy="-6.4273631016611555397e-08"  ixz="1.4928178833014714149e-12" iyy="3.8644457941791885502e-07" iyz="-9.0191416838479907724e-13" izz="3.6403373698071450377e-07" />
+</inertial>
+</link>
+
+<link name="dip_tip_soft_upward_cut_2">
+<visual>
+<origin xyz="-0.016078712415583826245 0.012538385423875947344 0.018121031483119304228" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+<material name="dip_tip_soft_upward_cut_material">
+<color rgba="0 0.74901960784313725839 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.016078712415583826245 0.012538385423875947344 0.018121031483119304228" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0046973159784598865485 -0.01181972224375681807 0.0093026388173126171172" rpy="0 0 0"/>
+<mass value="0.012499999999999998959" />
+<inertia ixx="1.1609996619058457481e-06" ixy="-2.360128858660413098e-07"  ixz="2.0032082089161885575e-10" iyy="4.3923424102121650935e-07" iyz="2.7775618184120909629e-10" izz="9.5684104170187606541e-07" />
+</inertial>
+</link>
+
+<joint name="middle_dip" type="revolute">
+<origin xyz="-0.0059888367506149564612 -0.020203261260719015957 0.00080000000000000339936" rpy="-7.216449660058559522e-16 -1.0087845572566123144e-15 -1.0057406296670617109e-13" />
+<parent link="pip_dip_soft_parts_2" />
+<child link="dip_tip_soft_upward_cut_2" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="middle_pip" type="revolute">
+<origin xyz="-0.010099999999999277958 0.016877547176541218832 0.034357058221310743384" rpy="3.1415926535897864547 -1.5707963267947866459 0" />
+<parent link="finger_v2_with_motor_2" />
+<child link="pip_dip_soft_parts_2" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="middle_mcps" type="revolute">
+<origin xyz="0.027352829851046762955 -0.019199999999999731171 0.010899999999999892414" rpy="-1.5707963267949174302 -1.5707963267948878983 0" />
+<parent link="axle_4_gear_together_2" />
+<child link="finger_v2_with_motor_2" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="middle_mcpf" type="revolute">
+<origin xyz="-0.001257000000001173845 0.032900000000000165223 0.024649999999999477884" rpy="-8.1521350855307519978e-15 -1.1565993913359290116e-14 1.5707963267948232833" />
+<parent link="4_finger_frame_mirror" />
+<child link="axle_4_gear_together_2" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="axle_4_gear_together_mir">
+<visual>
+<origin xyz="-0.014976596839393840899 -0.013132437379434397373 -0.022097493127817859765" rpy="-1.5707963267948961139 -1.190289949682531434 0" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together_mir.stl"/>
+</geometry>
+<material name="axle_4_gear_together_mir_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014976596839393840899 -0.013132437379434397373 -0.022097493127817859765" rpy="-1.5707963267948961139 -1.190289949682531434 0" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together_mir.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.026869719017990435772 0.0082230409932648271948 0.010875277957441358001" rpy="0 0 0"/>
+<mass value="0.020000000000000003886" />
+<inertia ixx="6.8365795729095562805e-08" ixy="5.2634161190577623809e-09"  ixz="-2.8910352952505076481e-11" iyy="2.8910168881205053624e-07" iyz="-3.562755299982331381e-09" izz="2.5363749823370387111e-07" />
+</inertial>
+</link>
+
+<link name="finger_v2_with_motor_3">
+<visual>
+<origin xyz="0.0088210314831197855073 0.024440528095822186549 0.012433718504434185248" rpy="1.5707963267949061059 -7.4530466674805909608e-15 -6.1754459995211918176e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+<material name="finger_v2_with_motor_material">
+<color rgba="0.60392156862745094426 0.14901960784313725283 0.14901960784313725283 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0088210314831197855073 0.024440528095822186549 0.012433718504434185248" rpy="1.5707963267949061059 -7.4530466674805909608e-15 -6.1754459995211918176e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="2.6979922005225531745e-06 0.0096917949877039846762 0.016724393282225816226" rpy="0 0 0"/>
+<mass value="0.044999999999999991396" />
+<inertia ixx="1.019074646174880633e-05" ixy="-5.8468932945953010122e-10"  ixz="9.9272185277926733312e-10" iyy="6.5698291146986900784e-06" iyz="8.0966731597356121798e-07" izz="6.3975487839694442251e-06" />
+</inertial>
+</link>
+
+<link name="pip_dip_soft_parts_3">
+<visual>
+<origin xyz="-0.021942347288131353045 -0.0075484225526453868627 0.018921031483119306327" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+<material name="pip_dip_soft_parts_material">
+<color rgba="0 0.81960784313725487671 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021942347288131353045 -0.0075484225526453868627 0.018921031483119306327" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0025584754911380756803 -0.010033066431080147479 0.010099921532957882239" rpy="0 0 0"/>
+<mass value="0.010000000000000000208" />
+<inertia ixx="5.8758094386557238497e-07" ixy="-6.4273631016611555397e-08"  ixz="1.4928178833014714149e-12" iyy="3.8644457941791885502e-07" iyz="-9.0191416838479907724e-13" izz="3.6403373698071450377e-07" />
+</inertial>
+</link>
+
+<link name="dip_tip_soft_upward_cut_3">
+<visual>
+<origin xyz="-0.016078712415583840123 0.0125383854238759751 0.018121031483119307698" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+<material name="dip_tip_soft_upward_cut_material">
+<color rgba="0 0.74901960784313725839 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.016078712415583840123 0.0125383854238759751 0.018121031483119307698" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0046973159784599004263 -0.011819722243756790314 0.0093026388173126205866" rpy="0 0 0"/>
+<mass value="0.012499999999999998959" />
+<inertia ixx="1.1609996619058457481e-06" ixy="-2.360128858660413098e-07"  ixz="2.0032082089161885575e-10" iyy="4.3923424102121650935e-07" iyz="2.7775618184120909629e-10" izz="9.5684104170187606541e-07" />
+</inertial>
+</link>
+
+<joint name="ring_dip" type="revolute">
+<origin xyz="-0.0059888367506149564612 -0.020203261260719043713 0.00079999999999999862887" rpy="2.2898349882890155861e-16 -3.8421128946076372492e-16 -2.3333559254652781087e-15" />
+<parent link="pip_dip_soft_parts_3" />
+<child link="dip_tip_soft_upward_cut_3" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="ring_pip" type="revolute">
+<origin xyz="-0.010099999999999284897 0.016877547176541225771 0.034357058221310785018" rpy="3.1415926535897864547 -1.5707963267948847896 0" />
+<parent link="finger_v2_with_motor_3" />
+<child link="pip_dip_soft_parts_3" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="ring_mcps" type="revolute">
+<origin xyz="0.02735282985104716541 -0.01920000000000005036 0.010849999999999889247" rpy="-1.5707963267949041075 -1.5707963267948787944 0" />
+<parent link="axle_4_gear_together_mir" />
+<child link="finger_v2_with_motor_3" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="ring_mcpf" type="revolute">
+<origin xyz="-0.0012570000000006187335 0.031400000000000378997 0.00064999999999846777565" rpy="-1.2395910035504297376e-15 -1.7696685043251826776e-14 1.5707963267949021091" />
+<parent link="4_finger_frame_mirror" />
+<child link="axle_4_gear_together_mir" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="axle_4_gear_together_mir_2">
+<visual>
+<origin xyz="-0.014976596839393837429 -0.013132437379434397373 -0.022097493127817863234" rpy="-1.5707963267948961139 -1.190289949682531434 2.1240729922602282849e-30" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together_mir.stl"/>
+</geometry>
+<material name="axle_4_gear_together_mir_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014976596839393837429 -0.013132437379434397373 -0.022097493127817863234" rpy="-1.5707963267948961139 -1.190289949682531434 2.1240729922602282849e-30" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together_mir.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.026869719017990442711 0.0082230409932648271948 0.010875277957441358001" rpy="0 0 0"/>
+<mass value="0.020000000000000003886" />
+<inertia ixx="6.8365795729095562805e-08" ixy="5.2634161190577623809e-09"  ixz="-2.8910352952505076481e-11" iyy="2.8910168881205053624e-07" iyz="-3.562755299982331381e-09" izz="2.5363749823370387111e-07" />
+</inertial>
+</link>
+
+<link name="finger_v2_with_motor_4">
+<visual>
+<origin xyz="0.0088210314831197907115 0.024440528095822179611 0.012433718504434213004" rpy="1.5707963267949061059 -7.4530466674805909608e-15 6.267831781977952374e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+<material name="finger_v2_with_motor_material">
+<color rgba="0.60392156862745094426 0.14901960784313725283 0.14901960784313725283 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0088210314831197907115 0.024440528095822179611 0.012433718504434213004" rpy="1.5707963267949061059 -7.4530466674805909608e-15 6.267831781977952374e-31" />
+<geometry>
+<mesh filename="package:///finger_v2_with_motor.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="2.6979922005277573449e-06 0.0096917949877039777373 0.016724393282225843982" rpy="0 0 0"/>
+<mass value="0.044999999999999991396" />
+<inertia ixx="1.019074646174880633e-05" ixy="-5.8468932945953010122e-10"  ixz="9.9272185277926733312e-10" iyy="6.5698291146986900784e-06" iyz="8.0966731597356121798e-07" izz="6.3975487839694442251e-06" />
+</inertial>
+</link>
+
+<link name="pip_dip_soft_parts_4">
+<visual>
+<origin xyz="-0.0219423472881313808 -0.0075484225526453868627 0.018921031483119309796" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+<material name="pip_dip_soft_parts_material">
+<color rgba="0 0.81960784313725487671 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0219423472881313808 -0.0075484225526453868627 0.018921031483119309796" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///pip_dip_soft_parts.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0025584754911381069054 -0.010033066431080147479 0.010099921532957885709" rpy="0 0 0"/>
+<mass value="0.010000000000000000208" />
+<inertia ixx="5.8758094386557217321e-07" ixy="-6.4273631016611542162e-08"  ixz="1.4928178833014712129e-12" iyy="3.8644457941791885502e-07" iyz="-9.0191416838479907724e-13" izz="3.6403373698071450377e-07" />
+</inertial>
+</link>
+
+<link name="dip_tip_soft_upward_cut_4">
+<visual>
+<origin xyz="-0.016078712415583812367 0.0125383854238759751 0.018121031483119307698" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+<material name="dip_tip_soft_upward_cut_material">
+<color rgba="0 0.74901960784313725839 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.016078712415583812367 0.0125383854238759751 0.018121031483119307698" rpy="-1.570796326794896558 -1.5707963267948741315 0" />
+<geometry>
+<mesh filename="package:///dip_tip_soft_upward_cut.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0046973159784598744054 -0.011819722243756790314 0.0093026388173126205866" rpy="0 0 0"/>
+<mass value="0.012499999999999998959" />
+<inertia ixx="1.1609996619058453246e-06" ixy="-2.3601288586604128333e-07"  ixz="2.0032082089161882991e-10" iyy="4.3923424102121650935e-07" iyz="2.7775618184120909629e-10" izz="9.5684104170187606541e-07" />
+</inertial>
+</link>
+
+<joint name="pinky_dip" type="revolute">
+<origin xyz="-0.0059888367506149842168 -0.020203261260719015957 0.00080000000000000903722" rpy="-7.5743338914897219864e-30 -3.7037646547667528089e-30 -2.227592717505732098e-19" />
+<parent link="pip_dip_soft_parts_4" />
+<child link="dip_tip_soft_upward_cut_4" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="pinky_pip" type="revolute">
+<origin xyz="-0.010149999999999194389 0.016923480642396210305 0.034509887968055361074" rpy="1.5707963267948927832 -1.5632231461311911769 1.5707963267949329733" />
+<parent link="finger_v2_with_motor_4" />
+<child link="pip_dip_soft_parts_4" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="2.0071286397934788859"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="pinky_mcps" type="revolute">
+<origin xyz="0.027352829851047182758 -0.019200000000000022604 0.010849999999999887512" rpy="-1.5707963267949007768 -1.5707963267948898967 0" />
+<parent link="axle_4_gear_together_mir_2" />
+<child link="finger_v2_with_motor_4" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="pinky_mcpf" type="revolute">
+<origin xyz="-0.0012570000000008407781 0.024400000000000122979 -0.023350000000003076628" rpy="-2.8793423040566930898e-29 -1.3272042439528221497e-14 1.570796326794896558" />
+<parent link="4_finger_frame_mirror" />
+<child link="axle_4_gear_together_mir_2" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="palm_4_finger" type="revolute">
+<origin xyz="-0.02246613515056605781 0.019157224527560735156 -0.13056529164839009161" rpy="3.1415926535897797933 -1.5707963267948907848 0" />
+<parent link="no_finger_frame_mirror" />
+<child link="4_finger_frame_mirror" />
+<axis xyz="0 0 1"/>
+<limit effort="1.3999999999999999112" velocity="4.7999999999999998224" lower="0" upper="1.0471975511965976313"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="thumb_frame_mirror">
+<visual>
+<origin xyz="-0.027821605558259396296 0.044255915974064266583 0.066548787174262685751" rpy="-1.5707963267948850117 0.84923005291266140393 -1.7057042082959173722e-31" />
+<geometry>
+<mesh filename="package:///thumb_frame_mirror.stl"/>
+</geometry>
+<material name="thumb_frame_mirror_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.027821605558259396296 0.044255915974064266583 0.066548787174262685751" rpy="-1.5707963267948850117 0.84923005291266140393 -1.7057042082959173722e-31" />
+<geometry>
+<mesh filename="package:///thumb_frame_mirror.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.032515631666375180431 0.033935385276429128054 0.018548155648067454065" rpy="0 0 0"/>
+<mass value="0.22999999999999984346" />
+<inertia ixx="0.00019675948907765924891" ixy="8.3275499084513413418e-05"  ixz="5.7918124543297311207e-06" iyy="0.00018213937632834326964" iyz="-3.1844521527916800141e-06" izz="0.00028899374811059249301" />
+</inertial>
+</link>
+
+<link name="axle_4_gear_together_mir_3">
+<visual>
+<origin xyz="-0.014976596839393840899 -0.013132437379434439007 -0.022097493127817859765" rpy="-1.5707963267948961139 -1.190289949682531212 1.0988321480213071436e-29" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together_mir.stl"/>
+</geometry>
+<material name="axle_4_gear_together_mir_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014976596839393840899 -0.013132437379434439007 -0.022097493127817859765" rpy="-1.5707963267948961139 -1.190289949682531212 1.0988321480213071436e-29" />
+<geometry>
+<mesh filename="package:///axle_4_gear_together_mir.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.026869719017990442711 0.0082230409932647855614 0.010875277957441358001" rpy="0 0 0"/>
+<mass value="0.020000000000000003886" />
+<inertia ixx="6.836579572909557604e-08" ixy="5.2634161190577632081e-09"  ixz="-2.8910352952485224147e-11" iyy="2.8910168881205053624e-07" iyz="-3.562755299982331381e-09" izz="2.5363749823370392405e-07" />
+</inertial>
+</link>
+
+<link name="thumb_with_motor">
+<visual>
+<origin xyz="0.026414838491578898627 0.00064215455784276745388 0.030549118748069883922" rpy="1.5707963267949001107 -2.7200464103337078338e-15 -8.1177923625607117323e-18" />
+<geometry>
+<mesh filename="package:///thumb_with_motor.stl"/>
+</geometry>
+<material name="thumb_with_motor_material">
+<color rgba="0.60392156862745094426 0.14901960784313725283 0.14901960784313725283 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.026414838491578898627 0.00064215455784276745388 0.030549118748069883922" rpy="1.5707963267949001107 -2.7200464103337078338e-15 -8.1177923625607117323e-18" />
+<geometry>
+<mesh filename="package:///thumb_with_motor.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0095101973966371586289 2.3246253683647860253e-06 0.017730220248421260654" rpy="0 0 0"/>
+<mass value="0.02999999999999999889" />
+<inertia ixx="4.9073135857413334546e-06" ixy="1.2618680567640160374e-09"  ixz="6.2260026023433374937e-07" iyy="7.0941870853834766304e-06" iyz="-2.702199723826127262e-09" izz="4.3853133412464469635e-06" />
+</inertial>
+</link>
+
+<link name="thumb_tip_hard">
+<visual>
+<origin xyz="0.008607291315036985635 -0.0032953496884898514363 0.013357845442156976098" rpy="3.5777514189670710012e-15 5.3834673113631425549e-16 -1.0164756605067507743e-18" />
+<geometry>
+<mesh filename="package:///thumb_tip_hard.stl"/>
+</geometry>
+<material name="thumb_tip_hard_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.008607291315036985635 -0.0032953496884898514363 0.013357845442156976098" rpy="3.5777514189670710012e-15 5.3834673113631425549e-16 -1.0164756605067507743e-18" />
+<geometry>
+<mesh filename="package:///thumb_tip_hard.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.016160154907585246031 -0.0024625086844086009445 0.0139981217730256631" rpy="0 0 0"/>
+<mass value="0.01499999999999999771" />
+<inertia ixx="8.82529831027691543e-07" ixy="1.2512228894469220597e-07"  ixz="1.6620531569339661153e-10" iyy="1.9831879832173122862e-06" iyz="5.2080878437450019818e-11" izz="1.3540765943650719336e-06" />
+</inertial>
+</link>
+
+<joint name="thumb_ip" type="revolute">
+<origin xyz="0.017877547176541885854 0.013999999999999773043 0.033846322776638890217" rpy="1.5707963267949001107 -0.0094694338577604071638 -4.0483561046121668772e-15" />
+<parent link="thumb_with_motor" />
+<child link="thumb_tip_hard" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="1.9198621771937625091"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="thumb_mcps" type="revolute">
+<origin xyz="0.027352829851046797649 -0.019200000000000633227 0.010849999999999889247" rpy="-1.5707963267948976682 4.0299414611979293602e-15 1.3375453570427470895e-15" />
+<parent link="axle_4_gear_together_mir_3" />
+<child link="thumb_with_motor" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="thumb_mcpf" type="revolute">
+<origin xyz="-0.032347051960330441833 -0.0012770001862932589543 -0.015152531201934082636" rpy="-1.1969884005312249714e-14 2.8538771109004857766e-15 3.1415926535897691352" />
+<parent link="thumb_frame_mirror" />
+<child link="axle_4_gear_together_mir_3" />
+<axis xyz="0 0 1"/>
+<limit effort="0.5" velocity="8" lower="-0" upper="1.710422666954442894"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="palm_thumb" type="revolute">
+<origin xyz="0.018739156904772430456 0.045102904380038819077 -0.13065829164838965726" rpy="1.5707963267948734654 1.129433819805329793e-14 -2.4870941840919345012" />
+<parent link="no_finger_frame_mirror" />
+<child link="thumb_frame_mirror" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="8.0634209999999999496" lower="0" upper="1.2217304763960306069"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+<link name="realtip">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 1 0 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realtip_joint" type="fixed">
+<origin xyz="-0.01 -0.025 0.01" rpy="0 0 0" />
+<parent link="dip_tip_soft_upward_cut" />
+<child link="realtip" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realtip_2">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 1 0 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realtip_joint_2" type="fixed">
+<origin xyz="-0.01 -0.025 0.01" rpy="0 0 0" />
+<parent link="dip_tip_soft_upward_cut_2" />
+<child link="realtip_2" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realtip_3">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 1 0 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realtip_joint_3" type="fixed">
+<origin xyz="-0.01 -0.025 0.01" rpy="0 0 0" />
+<parent link="dip_tip_soft_upward_cut_3" />
+<child link="realtip_3" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realtip_4">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 1 0 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realtip_joint_4" type="fixed">
+<origin xyz="-0.01 -0.025 0.01" rpy="0 0 0" />
+<parent link="dip_tip_soft_upward_cut_4" />
+<child link="realtip_4" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realtip_5">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 1 0 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realtip_joint_5" type="fixed">
+<origin xyz="0.03 -0.005 0.015" rpy="0 0 0" />
+<parent link="thumb_tip_hard" />
+<child link="realtip_5" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realdip">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 0 1 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realdip_joint" type="fixed">
+<origin xyz="-0.007 -0.02 0.01" rpy="0 0 0" />
+<parent link="pip_dip_soft_parts" />
+<child link="realdip" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realdip_2">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 0 1 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realdip_joint_2" type="fixed">
+<origin xyz="-0.007 -0.02 0.01" rpy="0 0 0" />
+<parent link="pip_dip_soft_parts_2" />
+<child link="realdip_2" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realdip_3">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 0 1 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realdip_joint_3" type="fixed">
+<origin xyz="-0.007 -0.02 0.01" rpy="0 0 0" />
+<parent link="pip_dip_soft_parts_3" />
+<child link="realdip_3" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realdip_4">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 0 1 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realdip_joint_4" type="fixed">
+<origin xyz="-0.007 -0.02 0.01" rpy="0 0 0" />
+<parent link="pip_dip_soft_parts_4" />
+<child link="realdip_4" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="realdip_5">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+        <material name="ball_material">
+            <color rgba="0 0 1 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <sphere radius="0.005"/>
+        </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.000025" ixy="0" ixz="0" iyy="0.000025" iyz="0" izz="0.000025"/>
+    </inertial>
+</link>
+
+<joint name="realdip_joint_5" type="fixed">
+<origin xyz="-0.0 -0.005 0.015" rpy="0 0 0" />
+<parent link="thumb_tip_hard" />
+<child link="realdip_5" />
+<axis xyz="0 0 -1"/>
+<limit effort="0.95" velocity="8.48" lower = "-0.366" upper = "2.042"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>
